@@ -1,0 +1,32 @@
+{
+  "name": "tiny-fingerprint",
+  "version": "0.0.1",
+  "main": "src/index.js",
+
+  "files": [
+    "src/index.js"
+  ],
+  "exports": {
+		".": {
+			"types": "./index.d.ts"
+		}
+	},
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "vitest watch",
+    "test:once": "vitest"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "happy-dom": "^16.5.3",
+    "vitest": "^2.1.5"
+  },
+  "type": "module",
+  "author": "Mitchel Jager",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Mitcheljager/tiny-fingerprint"
+	},
+  "license": "Unlicense (https://choosealicense.com/licenses/unlicense/)"
+}
