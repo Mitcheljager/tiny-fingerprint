@@ -6,11 +6,6 @@
   "files": [
     "src/index.js"
   ],
-  "exports": {
-		".": {
-			"types": "./index.d.ts"
-		}
-	},
   "scripts": {
     "lint": "eslint ./src",
     "test": "vitest watch",
