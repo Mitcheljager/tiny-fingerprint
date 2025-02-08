@@ -1,5 +1,10 @@
 {
   "name": "tiny-fingerprint-js",
+  "description": "A tiny script to fingerprint users based on a small number of parameters. Good enough to analyse trends, not good enough for precision. For when you need it small, not accurate.",
+	"keywords": [
+		"fingerprint",
+		"tracking"
+	],
   "version": "1.2.0",
   "main": "src/index.js",
   "files": [
