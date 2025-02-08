@@ -1,11 +1,11 @@
 {
   "name": "tiny-fingerprint-js",
   "description": "A tiny script to fingerprint users based on a small number of parameters. Good enough to analyse trends, not good enough for precision. For when you need it small, not accurate.",
-	"keywords": [
-		"fingerprint",
-		"tracking"
-	],
-  "version": "1.2.0",
+  "keywords": [
+    "fingerprint",
+    "tracking"
+  ],
+  "version": "1.2.1",
   "main": "src/index.js",
   "files": [
     "src/index.js"
@@ -24,8 +24,8 @@
   "type": "module",
   "author": "Mitchel Jager",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/Mitcheljager/tiny-fingerprint"
-	},
+    "type": "git",
+    "url": "https://github.com/Mitcheljager/tiny-fingerprint"
+  },
   "license": "Unlicense (https://choosealicense.com/licenses/unlicense/)"
 }
