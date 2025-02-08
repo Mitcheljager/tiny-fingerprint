@@ -12,7 +12,7 @@ describe("index.js", () => {
     })
 
     it("Should return different string when different data is passed", () => {
-      expect(getTinyFingerprint({ "a": "b" })).not.toBe(getTinyFingerprint({ "c": "d" }))
+      expect(getTinyFingerprint(["a", "b"])).not.toBe(getTinyFingerprint(["c", "d"]))
     })
 
     it("Should return different values based on window data", () => {
