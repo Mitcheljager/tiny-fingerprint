@@ -10,10 +10,10 @@ This package provides a way to identify a user via a tiny script. The uniqueness
 
 Install using Yarn or NPM, or any other package manager you might prefer.
 ```js
-yarn add tiny-fingerprint-js // Svelte 5
+yarn add tiny-fingerprint-js
 ```
 ```js
-npm install tiny-fingerprint-js // Svelte 5
+npm install tiny-fingerprint-js
 ```
 
 ## Usage
